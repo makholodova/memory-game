@@ -1,0 +1,13 @@
+﻿.container {
+  width: 100%;
+  max-width: 980px;
+  padding: 0 40px;
+  margin: 0 auto;
+
+  @include tablets {
+    padding: 0 30px;
+  }
+  @include phones {
+    padding: 0 10px;
+  }
+}

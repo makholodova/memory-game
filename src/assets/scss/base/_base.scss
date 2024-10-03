@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  background: rgb(249, 236, 222);
+  background: radial-gradient(circle, rgb(251, 194, 235) 0%, rgb(166, 193, 238) 78%);
+}
+
+body.lock-scroll {
+  overflow: hidden;
+}
+
+ 

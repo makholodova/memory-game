@@ -1,0 +1,30 @@
+.players__title {
+  margin-bottom: 30px;
+  color: #ff4f8b;
+}
+
+.players__list {
+  max-width: 750px;
+  width: 100%;
+}
+
+.players__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(19, 85, 28, 0.2);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: rgba(92, 65, 73, 0.6);
+}
+
+.players__name{
+  color: #454343;
+}
+
+.players__results {
+  display: flex;
+
+  gap: 20px;
+
+}

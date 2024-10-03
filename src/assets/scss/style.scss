@@ -1,0 +1,28 @@
+﻿@import "base/normalize";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Rowdies:wght@300&family=Ubuntu+Mono&display=swap');
+//Abstract
+@import "abstracts/constants";
+@import "abstracts/mixins";
+//Base
+@import "base/base";
+//Layout
+@import "layout/container";
+@import "layout/header";
+@import "layout/footer";
+// Components
+@import "components/buttons";
+@import "components/modal";
+@import "components/card";
+@import "components/gameResult";
+// Page
+@import "pages/game";
+@import "pages/index";
+
+
+
+/*
+
+sass --watch src/assets/scss/style.scss:src/style.css
+
+*/
+

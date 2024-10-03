@@ -1,0 +1,38 @@
+.footer {
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 16px;
+  color: $primary;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include phones {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+
+.footer__link {
+  color: $primary;
+  display: flex;
+  align-items: center;
+}
+
+.footer__icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.footer__school-logo {
+  width: 86px;
+  height: 32px;
+}
+
+.footer p {
+  margin: 0;
+}
+

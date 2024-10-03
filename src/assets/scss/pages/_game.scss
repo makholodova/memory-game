@@ -1,0 +1,40 @@
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  width: 100%;
+  margin-bottom: 20px;
+  @include phones {
+
+  }
+}
+
+.timer-display, .score-display {
+  line-height: 1rem;
+  background-color: rgba(255, 121, 176, 0.3);
+  padding: 10px;
+  border: 2px solid #ff79b0;
+  border-radius: 10px;
+  @include phones {
+    font-size: 10px;
+    line-height: 1;
+    padding: 5px;
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 750px;
+
+  @include phones {
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+}
