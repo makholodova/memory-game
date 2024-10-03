@@ -2,37 +2,37 @@
   {
     "id": "1",
     "name": "lion",
-    "img_back": "./img/back.png",
-    "img": "./img/image_1.png"
+    "img_back": "assets/img/back.png",
+    "img": "assets/img/image_1.png"
   },
   {
     "id": "2",
     "name": "bird",
-    "img_back": "./img/back.png",
-    "img": "./img/image_2.png"
+    "img_back": "assets/img/back.png",
+    "img": "assets/img/image_2.png"
   },
   {
     "id": "3",
     "name": "wolf",
-    "img_back": "./img/back.png",
-    "img": "./img/image_3.png"
+    "img_back": "assets/img/back.png",
+    "img": "assets/img/image_3.png"
   },
   {
     "id": "4",
     "name": "elephant",
-    "img_back": "./img/back.png",
-    "img": "./img/image_4.png"
+    "img_back": "assets/img/back.png",
+    "img": "assets/img/image_4.png"
   },
   {
     "id": "5",
     "name": "tiger",
-    "img_back": "./img/back.png",
-    "img": "./img/image_5.png"
+    "img_back": "assets/img/back.png",
+    "img": "assets/img/image_5.png"
   },
   {
     "id": "6",
     "name": "penguin",
-    "img_back": "./img/back.png",
-    "img": "./img/image_6.png"
+    "img_back": "assets/img/back.png",
+    "img": "assets/img/image_6.png"
   }
 ]
